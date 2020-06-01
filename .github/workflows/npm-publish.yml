@@ -3,8 +3,7 @@
 
 name: Node.js Package
 
-on:
-  master:
+on: [push]
 
 jobs:
   release:

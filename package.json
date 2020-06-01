@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "release": "standard-version",
+    "config": "git config user.email \"allistair.vilakazi@gmail.com\" && git config user.name \"Allistair Vilakazi\"",
     "publish": "git push --follow-tags origin master && npm publish"
   },
   "config": {
